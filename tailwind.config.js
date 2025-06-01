@@ -8,8 +8,17 @@ export default {
     extend: {
       colors: {
         background: '#ffffff',
-        card: '#f8f9fa',
-      }
+        card: '#e2e2e2',
+      },
+      keyframes: {
+        fadenin: {
+          '0%': { opacity: '0', transform: 'translateY(12px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+      },
+      animation: {
+        fadenin: 'fadenin 300ms ease-out forwards',
+      },
     },
   },
   plugins: [],
