@@ -5,7 +5,7 @@ import viteLogo from '/vite.svg'
 function App() {
   return (<>
     <main className='flex flex-col items-center justify-center md:flex-row '>
-      <section className='bg-card my-4 rounded-lg max-w-sm mx-auto shadow-xl border cursor-pointer transition hover:bg-card/50 hover:scale-105 active:scale-95 md:max-w-md sm:max-w-sm xs:max-w-xs'>
+      <section className='bg-card my-4 rounded-lg max-w-xs mx-auto shadow-xl border cursor-pointer transition hover:bg-card/50 hover:scale-105 active:scale-95 md:max-w-md sm:max-w-sm xs:max-w-xs'>
         <img className='w-full rounded-2xl aspect-video object-cover object-top' src="https://cdn.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_S.jpg" alt="dog" />
         <div className='p-6 space-y-2 md:p-8 lg:p-10'>
           <h2 className='animate-fadenin text-2xl font-bold sm:text-3xl md:text-4xl'>My Dogy</h2>
@@ -16,8 +16,8 @@ function App() {
         </div>
       </section>
 
-      <section className='bg-card my-4 rounded-lg max-w-sm mx-auto shadow-xl border cursor-pointer transition hover:bg-card/50 hover:scale-105 active:scale-95 md:max-w-md sm:max-w-sm xs:max-w-xs'>
-        <img className='w-full rounded-2xl aspect-video object-cover object-top' src="https://cdn.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_S.jpg" alt="dog" />
+      <section className='bg-card my-4 rounded-lg max-w-xs mx-auto shadow-xl border cursor-pointer transition hover:bg-card/50 hover:scale-105 active:scale-95 md:max-w-md sm:max-w-sm xs:max-w-xs'>
+        <img className='w-full rounded-2xl aspect-video object-cover object-top' src="https://www.nylabone.com/-/media/project/oneweb/nylabone/images/dog101/activities-fun/10-great-small-dog-breeds/maltese-portrait.jpg?h=448&w=740&hash=B111F1998758CA0ED2442A4928D5105D" alt="dog" />
         <div className='p-6 space-y-2 md:p-8 lg:p-10'>
           <h2 className='animate-fadenin text-2xl font-bold sm:text-3xl md:text-4xl'>My Dogy</h2>
           <p className='animate-fadenin text-sm font-extralight'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit facilis, fuga est dolor sequi eos. Magnam qui animi possimus? Quaerat id rem optio sapiente ipsa deserunt hic reiciendis quos aut?
