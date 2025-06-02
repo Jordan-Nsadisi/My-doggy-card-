@@ -11,7 +11,7 @@ export default {
         card: '#e2e2e2',
       },
       screens: {
-        xs: '480px',
+        xs: '0px',
       },
       keyframes: {
         fadenin: {
