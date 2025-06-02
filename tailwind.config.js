@@ -10,6 +10,9 @@ export default {
         background: '#ffffff',
         card: '#e2e2e2',
       },
+      screens: {
+        xs: '480px',
+      },
       keyframes: {
         fadenin: {
           '0%': { opacity: '0', transform: 'translateY(12px)' },
